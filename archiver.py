@@ -83,7 +83,7 @@ def save_to_csv(filename, transactions):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='Etherium transactions archiver. Retrieves Etherium transactions by block and stores them as CSV files.')
+    parser = argparse.ArgumentParser(description='Ethereum transactions archiver. Retrieves Ethereum transactions by block and stores them as CSV files.')
     parser.add_argument('--overwrite_csv', help='Overwrite csv files if they exist', default=False)
 
     # Set short default start/end block for this proof of concept. Running all transactions too time consuming at the moment
