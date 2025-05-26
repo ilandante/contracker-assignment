@@ -13,9 +13,13 @@ archiver.py will save the transactions ordered into subfolders organized by addr
 ## Arguments
 
 I've set up the script to allow for some arguments:
+
 --overwrite_csv: If set to True, will overwrite previously processed blocks
+
 --start_block: block to start reading transactions from
+
 --end_block: block to stop reading transactions from
+
 --address: ETH address to use
 
 Sample usage with arguments:
